@@ -1,0 +1,17 @@
+.info__subtitle {
+  width: 336px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 16px 0 0;
+}
+
+@media screen and (max-width: 880px) {
+  .info__subtitle {
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+    text-align: center;
+  }
+}

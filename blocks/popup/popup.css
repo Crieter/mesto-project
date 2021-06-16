@@ -1,0 +1,19 @@
+.popup {
+  margin: auto;
+  border-radius: 10px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 880px) {
+  .popup {
+    max-width: 282px;
+    max-height: 322px;
+  }
+}

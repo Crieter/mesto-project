@@ -1,0 +1,17 @@
+.element__vector {
+  background-color: #fff;
+  background-image: url(../../../images/s.svg);
+  width: 22px;
+  height: 19px;
+  margin: 5px 5px 0 0;
+  border: 0;
+}
+
+.element__vector:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.element__vector:focus {
+  background-image: url(../../../images/s_active.svg);
+}

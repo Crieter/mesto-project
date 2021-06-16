@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Mesto</title>
 </head>
 <body class="page">
@@ -22,9 +20,20 @@
         <button class="info__button"></button>
       </div>
       <button class="profile__button">
-        <img src="./images/+.svg" alt="" class="element__image">
+        <img src="./images/+.svg" alt="+" class="profile__button-image">
       </button>
     </section>
+    <div class="popup">
+      <div class="popup__box">
+        <button class="popup__button-close"></button>
+        <form name="form" class="popup__input">
+          <h2 class="popup__head">Редактировать профиль</h2>
+          <input class="popup__item" name="firstname" placeholder="Жак-Ив Кусто" required>
+          <input class="popup__item" name="firstoccupation" placeholder="Исследователь океана" required>
+          <button class="popup__button-save" id="edit__button" type="submit">Сохранить</button>
+        </form>
+      </div>
+    </div>
     <div class="elements">
       <section class="element">
         <img src="./images/karachaevo.png" alt="Карачаевск">
