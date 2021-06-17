@@ -1,4 +1,5 @@
 .info {
+  max-height: 90px;
   display: flex;
   position: relative;
   flex-direction: column;

@@ -1,13 +1,12 @@
 .info__button {
-  position: absolute;
+  display: flex;
   cursor: pointer;
   background-color: #000;
   border: 0;
   background-image: url(../../../images/Edit\ Button.svg);
-  top: 15px;
-  right: 0;
   width: 24px;
   height: 24px;
+  margin: 15px 0 0 18px;
 }
 
 .info__button:hover {
@@ -16,7 +15,9 @@
 
 @media screen and (max-width: 880px) {
   .info__button {
+    position: absolute;
+    margin: 0;
     top: 8px;
-    right: 19px;
+    right: -34px;
   }
 }
