@@ -5,11 +5,12 @@
   height: 19px;
   margin: 5px 5px 0 0;
   border: 0;
+  transition: .3s;
 }
 
 .element__vector:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .element__vector:focus {

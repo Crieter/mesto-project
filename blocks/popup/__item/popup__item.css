@@ -3,15 +3,19 @@
   box-sizing: border-box;
   width: 358px;
   height: 25px;
-  box-shadow: inset 0px -1px 0px 0px #000;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .2);
   background-color: #000000;
   opacity: 0.5;
   background-color: transparent;
-  margin-top: 30px;
+  margin: 30px auto 0;
   padding-bottom: 13px;
-  margin-left: auto;
-  margin-right: auto;
   border: 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.popup__item:first-of-type {
+  margin-top: 0;
 }
 
 .popup__item:focus {
@@ -22,7 +26,6 @@
   .popup__item {
     max-width: 238px;
     height: 27px;
-    margin-top: 30px;
     margin-left: 22px;
     margin-right: 22px;
     flex-direction: column;

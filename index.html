@@ -5,79 +5,79 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Mesto</title>
+  <title>Место</title>
 </head>
 <body class="page">
   <header class="header">
-    <img src="./images/Vector.svg" alt="" class="header__logo">
+    <img src="./images/Vector.svg" alt="Лого" class="header__logo">
   </header>
   <main class="main">
     <section class="profile">
       <img src="./images/Avatar.png" alt="Аватар" class="profile__avatar">
       <div class="info">
-        <h2 class="info__title">Жак-Ив Кусто</h2>
+        <div class="info__box">
+          <h1 class="info__title">Жак-Ив Кусто</h1>
+          <button type="button" class="info__button"></button>
+        </div>
         <p class="info__subtitle">Исследователь океана</p>
-        <button class="info__button"></button>
       </div>
-      <button class="profile__button">
-        <img src="./images/+.svg" alt="+" class="profile__button-image">
-      </button>
+      <button class="profile__button"></button>
     </section>
     <div class="popup">
       <div class="popup__box">
-        <button class="popup__button-close"></button>
-        <form name="form" class="popup__input">
+        <button type="button" class="popup__button-close"></button>
+        <form name="form" class="popup__form">
           <h2 class="popup__head">Редактировать профиль</h2>
           <input class="popup__item" name="firstname" placeholder="Жак-Ив Кусто" required>
           <input class="popup__item" name="firstoccupation" placeholder="Исследователь океана" required>
-          <button class="popup__button-save" id="edit__button" type="submit">Сохранить</button>
+          <button type="button" class="popup__button-save" id="edit__button" type="submit">Сохранить</button>
         </form>
       </div>
     </div>
-    <div class="elements">
-      <section class="element">
-        <img src="./images/karachaevo.png" alt="Карачаевск">
+    <section class="elements">
+      <article class="element">
+        <img src="./images/karachaevo.png" alt="Карачаевск" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Карачаевск</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Карачаевск</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-      <section class="element">
-        <img src="./images/elbrus.png" alt="Гора Эльбрус">
+      </article>
+      <article class="element">
+        <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Гора Эльбрус</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-      <section class="element">
-        <img src="./images/dombay.png" alt="Домбай">
+      </article>
+      <article class="element">
+        <img src="./images/dombay.png" alt="Домбай" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Домбай</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Домбай</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-      <section class="element">
-        <img src="./images/elbrus.png" alt="Гора Эльбрус">
+      </article>
+      <article class="element">
+        <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Гора Эльбрус</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-      <section class="element">
-        <img src="./images/dombay.png" alt="Домбай">
+      </article>
+      <article class="element">
+        <img src="./images/dombay.png" alt="Домбай" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Домбай</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Домбай</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-      <section class="element">
-        <img src="./images/karachaevo.png" alt="Карачаевск">
+      </article>
+      <article class="element">
+        <img src="./images/karachaevo.png" alt="Карачаевск" class="element__image">
         <div class="element__section">
-          <h3 class="element__title">Карачаево-Ч...</h3>
-          <button class="element__vector"></button>
+          <h2 class="element__title">Карачаево-Ч...</h2>
+          <button type="button" class="element__vector"></button>
         </div>
-      </section>
-    </div>
+      </article>
+    </section>
   </main>
   <footer class="footer">
     <p class="footer__text">© 2020 Mesto Russia</p>

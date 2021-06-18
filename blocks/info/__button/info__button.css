@@ -6,6 +6,7 @@
   background-image: url(../../../images/Edit\ Button.svg);
   width: 24px;
   height: 24px;
+  transition: .3s;
   margin: 15px 0 0 18px;
 }
 
@@ -15,9 +16,9 @@
 
 @media screen and (max-width: 880px) {
   .info__button {
-    position: absolute;
-    margin: 0;
-    top: 8px;
-    right: -34px;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    margin: 8px 0 0 10px;
   }
 }
